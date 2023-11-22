@@ -17,3 +17,6 @@ Eu sou uma estudente.
 DOC
 
 puts(here)
+
+country = "Japan"
+puts("I am fron #{country}.")
