@@ -15,3 +15,7 @@ array = [1, 5, 10]
 for n in array do
 	puts("num: #{n}")
 end
+
+('a'..'d').each do |s|
+	puts("str: #{s}")
+end
