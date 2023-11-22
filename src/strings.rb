@@ -24,3 +24,8 @@ puts("I am fron #{country}.")
 part1 = "I am "
 part2 = "a man."
 puts(part1 + part2)
+
+str = "hogefuga "
+num = 3
+puts(str * num)
+
