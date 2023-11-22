@@ -42,3 +42,8 @@ hoge, fuga, bar = ["FUGA", "BAR", "HOGE"]
 puts(hoge)
 puts(fuga)
 puts(bar)
+
+# Constants
+#   Both are valid.
+Pi = 3.14
+PI = 3.14
