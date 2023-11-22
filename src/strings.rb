@@ -29,3 +29,7 @@ str = "hogefuga "
 num = 3
 puts(str * num)
 
+str1 = "Berlin"
+str2 = ", Deutschland"
+puts(str1 << str2)
+puts(str1.concat(str2))
