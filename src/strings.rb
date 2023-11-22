@@ -20,3 +20,7 @@ puts(here)
 
 country = "Japan"
 puts("I am fron #{country}.")
+
+part1 = "I am "
+part2 = "a man."
+puts(part1 + part2)
