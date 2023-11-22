@@ -31,3 +31,16 @@ end
 8.downto(7){|num|
 	puts("num: #{num}")
 }
+
+num = 1
+loop{
+	puts("num = " + num.to_s)
+	num *= 2
+	if num > 1024 then
+		break
+	end
+}
+
+3.4.step(4, 0.2){|s|
+	puts("step: " + s.to_s)
+}
