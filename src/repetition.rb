@@ -19,3 +19,15 @@ end
 ('a'..'d').each do |s|
 	puts("str: #{s}")
 end
+
+3.times do
+	puts("bar!")
+end
+
+2.upto(4){|num|
+	puts("num: #{num}")
+}
+
+8.downto(7){|num|
+	puts("num: #{num}")
+}
