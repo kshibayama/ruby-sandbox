@@ -30,3 +30,15 @@ v1 = "France"
 
 puts(v1.object_id)
 puts(v2.object_id)
+
+
+# multiplex assignments
+hoge, fuga, bar = "hoge", "fuga", "bar"
+puts(hoge)
+puts(fuga)
+puts(bar)
+
+hoge, fuga, bar = ["FUGA", "BAR", "HOGE"]
+puts(hoge)
+puts(fuga)
+puts(bar)
