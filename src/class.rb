@@ -37,3 +37,18 @@ puts(i1.name)
 puts(Car::INSPECTING_YEAR)
 
 puts("Instance count: "+i1.getCount.to_s)
+
+class SportsCar < Car
+	def openRoof
+		puts("RoofOpened")
+	end
+
+	def showName
+		super
+		puts("My name is "+@name)
+	end
+end
+
+i3 = SportsCar.new("GP X")
+i3.showName
+i3.openRoof
