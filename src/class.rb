@@ -43,10 +43,14 @@ class SportsCar < Car
 		puts("RoofOpened")
 	end
 
+	public :openRoof
+
 	def showName
 		super
 		puts("My name is "+@name)
 	end
+	public :showName
+	#private :showName
 end
 
 i3 = SportsCar.new("GP X")
